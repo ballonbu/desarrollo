@@ -5,14 +5,13 @@
 }
 
 body{
-    background-color: BLACK;
-    color: black;
-    background-color: #DFDBE5;
-    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-    font-size: 16px;
-    font-family: ´Oswald´, sans-serif;
-
-}  
+    margin: 0;
+    padding: 0;
+    background: url(/IMAGENES/BannerUCI.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
 
 
 a {
@@ -26,62 +25,69 @@ ul {
 
 }
 
-.container {
-    width: 98%;
-    margin:auto;
 
-}
 
-/*NAvigation */
-.nav-main {
-    font-size: 17px;
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    height: 60px;
-    padding: 20px 0;
+ 
 
-}
+/* .iniciarsesion {
+    float: right;
+    width: 150px;
+    padding: 0rem 1rem;
+    line-height: 3rem;
+    color: #2cdddd;
+    text-decoration: none;
+} */
 
-.nav-brand  {  
-    width: 80px;
 
-}
 
-/* NAV LEFT*/
-.nav-main ul {
-    display: flex;
-    
-}
-
-.nav-main ul li {
-    padding: 10px;
-
-}
-
-.nav-main ul li a {
-    padding: 10px;
-
-}
-
-.nav-main ul li a:hover {
-    border-bottom: 2px solido white;
-
-}
-
-.nav-main ul.nav-main {
-    flex: 1;
-    margin-left: 20px;
-}   
-
-/* SHOWCASE */
-.showcase {
+nav{
+    background-color: #413717;
     width: 100%;
-    height:550px;
-    background: url('./imagenes/BannerUCI.jpg') no-repeat center center/cover;
-    padding-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-}   
+    height: 5rem;
+    opacity:90%;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    padding: 0 2rem;
+    left: 50rem;
+}
+nav ul li a{
+    display: block;
+    padding: 0 2rem;
+    line-height: 5rem;
+    color: #d8e3e7;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #2d3313; color: #d8e3e7;
+    opacity: 90%;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    padding: 0px 0px 0px 10px;}
+.fuente2 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 12px;}
+.img1 {
+    position: relative;
+    bottom: -350px;
+    right: 0px;
+    left: 1280px;
+}
+.img2 {
+    position: relative;
+    bottom: 50px;
+    right: 0px;
+    left: 750px;
+}
+.img3 {
+    position: relative;
+    bottom: 450px;
+    right: 0px;
+    left: 230px;
+}
