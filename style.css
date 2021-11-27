@@ -91,3 +91,30 @@ footer {
     right: 0px;
     left: 230px;
 }
+.oxigeno{
+    position: absolute;
+    color: rgb(219, 17, 142);
+    top: 850px;
+    left: 217px;
+    font-family:"Fredoka One";
+    font-size: 25pt;
+
+}
+.consultas{
+    position: absolute;
+    color: rgb(219, 17, 142);
+    top: 850px;
+    left: 800px;
+    font-family:"Fredoka One";
+    font-size: 25pt;
+
+}
+.uci{
+    position: absolute;
+    color: rgb(219, 17, 142);
+    top: 850px;
+    left: 1400px;
+    font-family:"Fredoka One";
+    font-size: 25pt;
+
+}
