@@ -109,6 +109,15 @@ footer {
     font-size: 25pt;
 
 }
+.SERVICIOS{
+    position: absolute;
+    color: rgb(219, 17, 142);
+    top: 200px;
+    left: 590px;
+    font-family:"Fredoka One";
+    font-size: 100pt;
+
+}
 .uci{
     position: absolute;
     color: rgb(219, 17, 142);
@@ -117,4 +126,108 @@ footer {
     font-family:"Fredoka One";
     font-size: 25pt;
 
+}
+.NOSOTROS{
+    position: absolute;
+    color: rgb(219, 17, 142);
+    top: 1100px;
+    left: 100px;
+    font-family:"Fredoka One";
+    font-size: 70pt;
+
+}
+* {
+    box-sizing: border–box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.sub1 {
+    position: absolute;
+    color: rgb(206, 74, 57);
+    top: 920px;
+    left: 235px;
+    font-family:"Fredoka One";
+    font-size: 10pt;
+    box-shadow: 0 0 8px 2px 
+
+}
+.sub2 {
+    position: absolute;
+    color: rgb(206, 74, 57);
+    top: 920px;
+    left: 800px;
+    font-family:"Fredoka One";
+    font-size: 10pt;
+    box-shadow: 0 0 8px 2px 
+
+}
+.sub3 {
+    position: absolute;
+    color: rgb(206, 74, 57);
+    top: 920px;
+    left: 1240px;
+    font-family:"Fredoka One";
+    font-size: 10pt;
+    box-shadow: 0 0 8px 2px 
+
+}
+
+
+.formulario {
+    width: 700px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 90px;
+    box-shadow: 0 0 20px 1px rgba(151, 110, 35, 0.295);
+    position: relative;
+}
+
+.formulario__titulo {
+    text-align: center;
+    margin-top: 0px ;
+    color:  rgba(212, 212, 196, 0.7);
+}
+
+.formulario__input, .formulario__label, .formulario__submit  {
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+}
+.formulario__input {
+    padding: 20px;
+    background: rgb(85, 84, 82);
+    border: 1px solid rgba(0, 0, 0, 0.822);
+    margin-bottom: 40px;
+}
+
+.formulario__input:focus {
+    outline: 1px solid  rgba(22, 16, 16, 0.7);
+}
+
+.formulario__input:focus + .formulario__label {
+margin-top: -135px;
+}
+
+.formulario__label {
+padding-left:  15px;
+position: absolute;
+margin-top:  -85px;
+z-index: -20;
+color: rgba(156, 156, 155, 0.603);
+transition: all 0.2s;
+}
+
+.formulario__submit {
+background: rgba(73, 64, 9, 0.356);
+color: white;
+padding: 10px 20px;
+cursor: pointer;
+border: none;
+}
+
+.fijar {
+    margin-top: -150px
 }
